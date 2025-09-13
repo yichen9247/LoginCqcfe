@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="">
+<html lang="zh_CN">
   <head>
     <meta charset="UTF-8">
     <link rel="icon" href="/favicon.ico">
@@ -10,7 +10,9 @@
     <div id="application"></div>
     <script type="module" src="/src/application.ts"></script>
     <script>
-      function handleResponse(data) {}
+      function handleLoginRequest(data) {} // 转发登录请求
+      function handleLogoutRequest(data) {} // 转发注销请求
+      function handleGetStatusRequest(data) {} // 转发获取状态
     </script>
   </body>
 </html>

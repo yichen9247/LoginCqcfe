@@ -10,7 +10,6 @@
 
 <template>
     <div class="login-frame">
-        
         <el-form class="login-form" :model="formData">
             <el-form-item label="学号">
                 <el-input v-model="formData.username" size="large" placeholder="请输入你的学号" clearable/>
