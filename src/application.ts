@@ -9,5 +9,4 @@ const application = createApp(LoginCqcfe);
 
 application.use(router);
 application.use(createPinia());
-
 application.mount('#application');
