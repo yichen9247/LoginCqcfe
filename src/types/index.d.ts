@@ -3,3 +3,8 @@ export interface RequestModel {
     result: number,
     ret_code: number
 }
+
+export interface loginFormType {
+    username: string,
+    password: string
+}

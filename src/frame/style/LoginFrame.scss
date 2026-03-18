@@ -18,14 +18,34 @@ div.login-frame {
             }
         }
 
-        button.login-btn {
+        div.button-box {
             width: 100%;
             height: 50px;
-            font-size: 18px;
-            margin-top: 15px;
-            margin-bottom: 10px;
-            border: none!important;
-            background-color: #1a56db!important;
+            display: flex;
+            margin-top: 35px;
+            align-items: center;
+            justify-content: space-between;
+
+            button.el-button {
+                height: 50px;
+                font-size: 18px;
+                border: none!important;
+                background-color: #1a56db!important;
+            }
+
+            button.login-btn {
+                flex: 1;
+            }
+
+            button.service-btn {
+                width: 50px;
+                margin-left: 18px;
+
+                i, svg {
+                    width: 1.25em!important;
+                    height: 1.25em!important;
+                }
+            }
         }
     }
 }
